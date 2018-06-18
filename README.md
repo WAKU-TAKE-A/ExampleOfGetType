@@ -1,4 +1,4 @@
-# Example of GetType
+# Example of GetType (for 64bit)
 
 Check IronPython's class with C # GetType.
 
