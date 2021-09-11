@@ -8,6 +8,11 @@ namespace MyUtil
 {
     public class MyFunction
     {
+        /// <summary>
+        /// Run GetType() on the argument.
+        /// </summary>
+        /// <param name="obj">The target to investigate.</param>
+        /// <returns>The result.</returns>
         public static string GetTypeCs(object obj)
         {
             try
@@ -21,6 +26,11 @@ namespace MyUtil
             }
         }
 
+        /// <summary>
+        /// Run GetType() on the elements of the list.
+        /// </summary>
+        /// <param name="obj">The target to investigate.</param>
+        /// <returns>The result.</returns>
         public static string GetTypeCs_IList(IList<object> obj)
         {
             try
